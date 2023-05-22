@@ -1,0 +1,76 @@
+h1{
+    background-color: rgb(221, 111, 9);
+    color: white;
+}
+.colorBlack{
+    color: black;
+}
+#colorRed{
+    color: red;
+}
+*{
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.class1, .class2{
+    color: rgb(0, 162, 255);
+}
+h1, p {
+    font-style: italic;
+    color: rgb(1, 5, 255);
+}
+
+h1.colorBlack{
+    background-color: rgb(0, 119, 255);
+}
+
+div> p {
+    color: red;
+}
+div:nth-child(1) {
+    background-color:  green;
+}
+
+div p:nth-child(2) {
+    background-color:  green;
+}
+a:hover{
+    font-size: 2rem;
+}
+a:active{
+    font-size: 4em;
+}
+a:visited{
+    color: green;
+}
+
+p:first-child{
+
+}
+
+p::after{
+
+}
+
+p::before{
+
+}
+
+input:focus{
+
+}
+input:required{
+
+}
+
+[href]:{
+    
+}
+
+[heref='valor']:{
+
+}
+
+input[type='email']{
+
+}
