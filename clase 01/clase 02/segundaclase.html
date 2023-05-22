@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejemplos de Formulario</title>
+</head>
+<body>
+    <!-- Formulario -->
+    <form>
+        <!-- Campo de nombre -->
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+        </div>
+        <!-- Campo de apellido -->
+        <div>
+            <label for="apellido">apellido:</label>
+            <input type="text" id="apellido" name="apellido">
+        </div>
+        <!-- Campo de email -->
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <!-- Campo de número -->
+        <div>
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" min="18" max="99">
+        </div>
+        
+        <!-- Campo de fecha -->
+        <div>
+            <label for="fecha">Fecha de nacimiento:</label>
+            <input type="date" id="fecha" name="fecha">
+        </div>
+        
+        <!-- Campo de selección -->
+        <div>
+            <label for="pais">País:</label>
+            <select id="pais" name="pais">
+                <option value="1">Argentina</option>
+                <option value="2">Brasil</option>
+                <option value="3">Chile</option>
+            </select>
+        </div>
+        
+        <!-- Casillas de verificación -->
+        <div>
+            <label>Género:</label>
+            <label><input type="radio" name="genero" value="masculino"> Masculino</label>
+            <label><input type="radio" name="genero" value="femenino"> Femenino</label>
+        </div>
+        
+        <!-- Botones de radio -->
+        <div>
+            <label>Intereses:</label>
+            <label><input type="checkbox" name="intereses" value="deportes"> Deportes</label>
+            <label><input type="checkbox" name="intereses" value="musica"> Música</label>
+            <label><input type="checkbox" name="intereses" value="arte"> Arte</label>
+        </div>
+        
+        <!-- Área de texto -->
+        <div>
+            <label for="mensaje">Mensaje:</label>
+        </div>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="40"></textarea>
+        
+        <!-- Botón de envío -->
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
+        
+    </form>
+    
+    <!-- Pie de página -->
+    <footer>
+        <p>© 2023 Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
