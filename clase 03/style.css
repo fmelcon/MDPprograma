@@ -50,7 +50,7 @@ ul:hover{
 .title{
     text-align: center;
     font-family: var(--title);
-    font-size: var(--size-xl);
+    size: var(--size-xl);
     color: rgb(5, 107, 148);
 }
 
