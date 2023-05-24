@@ -1,5 +1,7 @@
 *{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 1200px;
+    margin: auto;
 }
 
 :root{
@@ -30,6 +32,7 @@ display: flex;
 }
 
 ul{
+    margin: 3rem 0rem;
     transition: all .2s ease-in-out; 
 }
 
@@ -67,15 +70,19 @@ ul:hover{
 
 .boxes{
     margin: 1rem;
-    transition: all .2s ease-in-out; 
+    transition: all .2s ease-in; 
 }
 
 .boxes:hover{
-    transform: scale(1.1); 
+    transform: scale(1.2); 
 }
 
 .links{
     padding: 1rem;
     border-radius: 1rem;
     border: 3px solid rgb(191, 191, 206);
+}
+
+.links:hover{
+    border-color: var(--bgcolor-primary)
 }
