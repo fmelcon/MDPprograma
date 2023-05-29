@@ -1,0 +1,11 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 5px;
+    width: 100px;
+    border: 2px solid blue;
+}
