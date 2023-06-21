@@ -1,0 +1,33 @@
+*{margin: 0%; padding: 0%; box-sizing: border-box;}
+body{
+    font-family:'Courier New', Courier, monospace;
+}
+section{
+    height: 100vh;
+    color: white;
+    background-color: rgb(43, 114, 105);
+    padding: 2rem;
+}
+form{
+    width: 30%;
+    margin: auto;
+    padding: 20px;
+}
+.espacio{
+    width: 100%;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding: 10px;
+    border: 1px solid rgb(179, 177, 177);
+    border-radius: 4px;
+}
+button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(3, 136, 3);
+    color: white;
+    border: 1px solid rgb(179, 177, 177);
+    border-radius: 4px;
+    border: none;
+}
