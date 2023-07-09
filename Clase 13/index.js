@@ -1,7 +1,7 @@
-console.log("Hola mundo")
-console.info("info")
-console.warn("Advertencia")
-console.error("error")
+console.log("Hola mundo");
+console.info("info");
+console.warn("Advertencia");
+console.error("error");
 
 
 // comentamos una Linea
@@ -29,7 +29,7 @@ console.log(document.getElementById("parrafo"));
 
 setTimeout(()=> {
     parrafo.textContent += '  texto extra con setTimeout'
-},3000)
+},3000);
 
 //añadir cualquier evento a un elemento de HTML addEventListener
 
@@ -54,5 +54,5 @@ const parrafo2 = document.querySelectorall('#parrafo');
 console.log('parrafo2')
 console.log(parrafo2.innerText);
 
-console.log(parrafo==parrafo2)
+console.log(parrafo==parrafo2);
 
