@@ -52,39 +52,6 @@
 
 }
 
-.logo {
-   height: 45px;
-   width: 45px;
-   border-radius: 40px;
-   margin-left: 25px;
-}
-
-.carrito {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   background-color: rgb(88, 61, 61);
-   border-radius: 20px;
-   width: 150px;
-   position: relative;
-   right: 70px;
-
-}
-
-.carrito p {
-   color: aliceblue;
-   font-size: 16px;
-   font-weight: bold;
-   position: relative;
-   top: 7px;
-   right: 4px;
-
-}
-
-.lupa {
-   margin: 10px;
-}
-
 .seccion2 {
    display: flex !important;
    margin-top: 2rem;
@@ -100,7 +67,7 @@
 
 /* Tercera Seccion */
 section h4 {
-   color: rgb(138, 203, 132);
+   color: rgb(86, 156, 80);
    text-align: center;
    margin: 80px;
    letter-spacing: 3px;
@@ -135,22 +102,24 @@ section h4 {
 .img4 {
    width: 250px;
    height: 280px;
-   position: relative;
-   right: 90px;
-   padding: 25px;
-   margin: 10px;
+   padding: 1rem;
 }
 
 .fotogrande {
    width: 400px;
    height: 450px;
-   margin: 80px;
+   margin : 75px;
+}
+
+.Seccion4{
+   width: 95%;
+   position: relative;
+   right: 30px;
 }
 
 /* Footer */
 footer {
    display: flex;
-   align-items: center;
    justify-content: center;
    height: 130px;
    width: 100%;
