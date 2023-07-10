@@ -68,3 +68,6 @@ elementoDiv.innerHTML = 'hola mundo';
 elementoDiv.classList.add('classone');
 
 div1.before(elementoDiv); // agrega elemento antes.
+
+//prepend => añade el primero hijo
+//append => añade el ultimo hijo
