@@ -30,8 +30,3 @@ const deleteTask = event => {
 // Eventos de clic para agregar y eliminar tareas
 addButton.addEventListener("click", addTask);
 
-taskList.addEventListener("click", event => {
-    if (event.target.tagName === "LI") {
-        event.target.classList.toggle("completed");
-    }
-});
