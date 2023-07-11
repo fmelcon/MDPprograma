@@ -1,7 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    margin-top: 50px;
+    margin: auto !important;
+
 }
 
 h1 {
@@ -18,21 +19,38 @@ button {
     background-color: green;
     color: white;
     border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+    transform: translateY(-2px);
+    transition: ease-in-out 0.3s;
 }
 
 ul {
-    list-style-type: none;
+    list-style-type: auto;
     padding: 0;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 li {
-    margin: 10px 0;
-    padding: 10px;
+    margin: 5px auto;
+    padding: 2px;
+    min-width: 50%;
     background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+
 }
 
 .deleteButton{
     background-color: red;
     color: white;
-    margin: 1rem;
+    margin-left: 1rem;
+
 }
