@@ -14,7 +14,7 @@ const addTask = () => {
 
         // Agregar botón de eliminación a la tarea
         const deleteButton = document.createElement("button");
-        deleteButton.textContent = "Eliminar";
+        deleteButton.textContent = "Eliminar X";
         deleteButton.classList.add("deleteButton");
         deleteButton.addEventListener("click", deleteTask);
         li.appendChild(deleteButton);
