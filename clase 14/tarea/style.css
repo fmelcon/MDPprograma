@@ -1,7 +1,6 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    margin: auto !important;
 
 }
 
@@ -36,13 +35,12 @@ ul {
     margin: 5px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    text-align-last: center;
 }
 
 li {
     margin: 5px auto;
     padding: 2px;
-    min-width: 50%;
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
 
