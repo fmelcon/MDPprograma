@@ -35,7 +35,7 @@ ul {
     margin: 5px;
     display: flex;
     flex-direction: column;
-    text-align-last: center;
+
 }
 
 li {
@@ -43,6 +43,7 @@ li {
     padding: 2px;
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
+    width: 40%;
 
 }
 
