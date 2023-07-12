@@ -24,27 +24,32 @@ button {
 
 button:hover {
     opacity: 0.8;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19);
     transform: translateY(-2px);
     transition: ease-in-out 0.3s;
 }
 
 ul {
-    list-style-type: auto;
     padding: 0;
     margin: 5px;
-    display: flex;
-    flex-direction: column;
-
 }
 
 li {
-    margin: 5px auto;
+    
+    margin: 10px auto;
     padding: 2px;
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
-    width: 40%;
+    width: 50%;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
 
+}
+li:hover{
+    opacity: 0.8;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
 }
 
 .deleteButton{
