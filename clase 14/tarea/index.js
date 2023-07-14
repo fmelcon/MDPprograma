@@ -10,8 +10,9 @@ const addTask = () => {
         const li = document.createElement("li");
         li.textContent = taskText;
         taskList.appendChild(li);
+        taskInput.focus();
         taskInput.value = "";
-
+        
         // Agregar botón de eliminación a la tarea
         const deleteButton = document.createElement("button");
         deleteButton.textContent = "Eliminar X";
@@ -22,8 +23,8 @@ const addTask = () => {
 };
 
 // Eliminar tarea de la lista
-const deleteTask = event => {
-    const listItem = event.target.parentNode;
+const deleteTask = e => {
+    const listItem = e.target.parentNode;
     taskList.removeChild(listItem);
 };
 
