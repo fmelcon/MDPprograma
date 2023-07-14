@@ -17,6 +17,7 @@ const addTask = () => {
         const deleteButton = document.createElement("button");
         deleteButton.textContent = "Eliminar X";
         deleteButton.classList.add("deleteButton");
+        // DeleteButton.innerHTML = "<button class='deleteButton>Eliminar X</button>"; esto es lo mismo que la otra opcion pero mas corta
         deleteButton.addEventListener("click", deleteTask);
         li.appendChild(deleteButton);
     }
