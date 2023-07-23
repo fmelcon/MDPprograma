@@ -14,7 +14,7 @@ let numeroDos= prompt('Ingrese el valor de dos: ');
 /condicinal if--else saber el mayor de 2 numeros ingresados por el usuario/
 
 
-numeroUno = parseint(numeroUno);
+numeroUno = parseInt(numeroUno);
 // parseInt => de string => numerico
 // Number() => true, false =>
 // String()
@@ -55,8 +55,8 @@ switch (month) {
     case 9: mes='Octubre';break;
     case 10: mes='November rain';break;
     default: mes='diciembre';break;
-
 }
+console.log(mes)
 
 /* while mientras la condicion se cumple se repite hasta que salga de la condicion*/
 // tiene una variable de inicializacion
