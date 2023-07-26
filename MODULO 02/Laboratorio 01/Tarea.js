@@ -7,8 +7,8 @@ const prompt = require('prompt-sync')({signit:true});
 //DADO 3 valores ingresados por el usuario saber cual es el mayor de ellos.
 
 let a = prompt('Ingrese el valor de a: ');
-let b= prompt('Ingrese el valor de b: ');
-let c= prompt('Ingrese el valor de c: ');
+let b = prompt('Ingrese el valor de b: ');
+let c = prompt('Ingrese el valor de c: ');
 
 let mayor = a
 
@@ -21,12 +21,11 @@ if (b > mayor && b > c) {
 
 console.log('El numero mayor es:',mayor);
 
-// ternario
+//ternario
 
 /*mayor = (a > b && a > c) ? console.log(`El numero mayor es ${a}`):
         (b > a && b > c) ? console.log(`El numero mayor es ${b}`):
         console.log(`El numero mayor es ${c}`);*/
-
 
 ///////////////////////////////////////////////////////////////////////////////
 //Realizar la tabla de multiplicar dado un valor por el usuario
@@ -39,7 +38,6 @@ for (let i = 1; i <= 10; i++) {
 
     console.log(`${multiplo} x ${i} = ${resultado}`);
 }
-
 
 ///////////////////////////////////////////////////////////////////////////////
 
