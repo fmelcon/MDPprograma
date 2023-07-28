@@ -11,8 +11,7 @@ const opciones = console.log(
 "┃3. Restar                             ┃\n" +
 "┃4. Dividir                            ┃\n" +
 "┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛\n");
-  
-  
+
 const accion = prompt(opciones);
 const opcion = parseInt(accion);
 
