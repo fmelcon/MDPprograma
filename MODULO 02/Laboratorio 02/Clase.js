@@ -56,3 +56,26 @@ array.shift();
 
 array.splice(2,1);
 array.splice(1,0,'agregadisimo');
+console.log(array);
+
+////////////////* metodo de reccorido forEach*/////////////////
+
+array.forEach((elements,posicion)=>{
+console.log(`Elemento: ${elements} => posicion: ${posicion}`);
+
+})
+
+/* Metodo MAP crea un nuevo arreglo map() */
+let dataArray = array.map((elements,posicion)=>{
+    console.log(`Elemento: ${elements} => posicion: ${posicion}`);
+});
+/* filters find */
+
+let filterArray = array.filter((elements)=>{
+    return elements >= 4;
+});
+console.log(filterArray);
+
+filterArray = array.find((elements)=>{
+    return elements <= 4;
+});
