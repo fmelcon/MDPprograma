@@ -50,7 +50,8 @@ const listPersona = (arrayData) => {
                     <td>${person.birthday}</td>
                     <td>${person.address}</td>
                     <td>${person.status}</td>
-                    <td><button onclick="actionDelete(${index})" class="btn btn-dark">Eliminar</button></td>
+                    <td><button onclick="actionUpdate(${person.dni})" class="btn btn-info my-3" >Editar</button>
+                    <button onclick="actionDelete(${person.dni})" class="btn btn-dark">Eliminar</button></td>
                 </tr>`;
         });
     }
@@ -93,7 +94,8 @@ const actionFilterInput = () => {
     console.log(search);
 }
 
-const actionDelete = (position) =>{
+const actionDelete = (dni) =>{
+    let position = filterDniOne(dni,dataPersona);
     dataPersona.splice(position,1);
     document.getElementById("listPerson").innerHTML = listPersona(dataPersona);
 }
