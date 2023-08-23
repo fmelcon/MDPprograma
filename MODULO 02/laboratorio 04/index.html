@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Piedra, Papel y Tijera</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Piedra, Papel y Tijera</h1>
+    <div class="game">
+      <button class="play-button" id="playButton">Jugar</button>
+      <div class="choices">
+        <table>
+          <tr>
+            <th>Tu elección</th>
+            <td id="playerChoice"></td>
+          </tr>
+          <tr>
+            <th>Competidor</th>
+            <td id="computerChoice"></td>
+          </tr>
+        </table>
+      </div>
+      <div class="result" id="result">
+        <p></p>
+      </div>
+    </div>
+    <div class="history">
+      <h2>Historial de Resultados</h2>
+      <ul id="historyList"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

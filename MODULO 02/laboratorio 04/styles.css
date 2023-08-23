@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 20px;
+    color: #333;
+  }
+  
+  .game {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+  }
+  
+  .play-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #27ae60;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .play-button:hover {
+    background-color: #218c4b;
+  }
+  
+  .choices {
+    margin: 20px auto;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  table, th, td {
+    border: 1px solid #ccc;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .result {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+
+  .history {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .history h2 {
+    margin-bottom: 10px;
+  }
+  
+  #historyList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .history-item {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .history-item .icon {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  
+  .history-item .icon-green {
+    color: green;
+  }
+  
+  .history-item .icon-red {
+    color: red;
+  }
+  
+  
+
+
+
+
+  .result p {
+    animation: fadeOut 1s ease forwards;
+  }
+  
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  .result p.winner {
+    color: green;
+    animation: fadeInGreen 1s ease forwards;
+  }
+  
+  .result p.loser {
+    color: red;
+    animation: fadeInRed 1s ease forwards;
+  }
+  
+  .result p.draw {
+    color: gray;
+    animation: fadeInGray 1s ease forwards;
+  }
+  
+  @keyframes fadeInGreen {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInRed {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInGray {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
