@@ -8,7 +8,7 @@ body {
   
   h1 {
     margin-bottom: 20px;
-    color: #333;
+    color: #2164b5;
   }
   
   #hangman-container {
@@ -26,11 +26,17 @@ body {
   }
   
   .correct-letter {
+    font-size: 24px;
     color: #4caf50;
     font-weight: bold;
   }
   
   .incorrect-letter {
+    align-items: center;
+    font-size: 24px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    background-color: rgba(0, 0, 0, 0.851);
     color: #f44336;
     text-decoration: line-through;
   }
