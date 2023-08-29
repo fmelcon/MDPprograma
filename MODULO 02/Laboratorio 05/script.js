@@ -1,4 +1,4 @@
-const words = ["javascript", "ciencia", "cartel", "programar", "computadora", "react", "hamster", "salchipapa","telescopio"];
+const words = ["javascript", "ciencia", "cartel", "programar", "computadora", "remera", "hamster", "salchipapa","telescopio"];
 let chosenWord = words[Math.floor(Math.random() * words.length)];
 let remainingAttempts = 5;
 let guessedLetters = [];
@@ -16,9 +16,6 @@ const keyboard = document.getElementById("keyboard");
 guessButton.addEventListener("click", handleGuess);
 newGameButton.addEventListener("click", startNewGame);
 resetButton.addEventListener("click", resetGame);
-
-
-
 
 function handleGuess() {
     const letter = letterInput.value.toLowerCase();
